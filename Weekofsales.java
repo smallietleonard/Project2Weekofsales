@@ -59,6 +59,7 @@ public class Weekofsales {
       System.out.println("\n");
       int secondDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (secondDate + 23) + "/20\n");
       System.out.println("\n");
       switch (secondDate){
         case 1:
