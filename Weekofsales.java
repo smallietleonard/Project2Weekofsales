@@ -272,6 +272,7 @@ public class Weekofsales {
          System.out.println("\n");
           System.out.println("There is no more days!");
           System.out.println("\n");
+          break;
         case "no":
       System.out.println("\n");
       System.out.println("Okay! Less work for me :)");
@@ -304,6 +305,9 @@ public class Weekofsales {
       System.out.println("Okay! Less work for me :)");
       break;}//close for yon
 
+
+    for (int i = 0; i<3; ++i) {
+
    System.out.println("\n");
     System.out.println("There is some logged information that you can access if you would like!\n Please select between:\n \"average\" for average revenue per day over the week \n \"total\" for total revenue of the week \n \"profit\" for the profit of the last week\n\n");
 
@@ -320,7 +324,9 @@ public class Weekofsales {
       System.out.println("\n$1090");
       break;
     }
+    }
 
+    System.out.println("\nThat's all I have for you at this time. \n\n Have a great day!");
     
     }//PSVM Close
   
