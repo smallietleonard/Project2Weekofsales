@@ -96,6 +96,7 @@ public class Weekofsales {
       System.out.println("\n");
       int thirdDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (thirdDate + 23) + "/20\n");
       System.out.println("\n");
       switch (thirdDate){
         case 1:
@@ -132,6 +133,7 @@ public class Weekofsales {
       System.out.println("\n");
       int fourthDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (fourthDate + 23) + "/20\n");
       System.out.println("\n");
       switch (fourthDate){
         case 1:
@@ -168,6 +170,7 @@ public class Weekofsales {
       System.out.println("\n");
       int fifthDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (fifthDate + 23) + "/20\n");
       System.out.println("\n");
       switch (fifthDate){
         case 1:
@@ -204,6 +207,7 @@ public class Weekofsales {
       System.out.println("\n");
       int sixthDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (sixthDate + 23) + "/20\n");
       System.out.println("\n");
       switch (sixthDate){
         case 1:
@@ -240,6 +244,7 @@ public class Weekofsales {
       System.out.println("\n");
       int seventhDate = user_input.nextInt();
       user_input.nextLine();
+      System.out.println("\nYou selected: 6/" + (seventhDate + 23) + "/20\n");
       System.out.println("\n");
       switch (seventhDate){
         case 1:
