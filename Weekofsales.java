@@ -309,7 +309,7 @@ public class Weekofsales {
     for (int i = 0; i<3; ++i) {
 
    System.out.println("\n");
-    System.out.println("There is some logged information that you can access if you would like!\n Please select between:\n \"average\" for average revenue per day over the week \n \"total\" for total revenue of the week \n \"profit\" for the profit of the last week\n\n");
+    System.out.println("There is some logged information that you can access if you would like!\n Please select between:\n \"average\" for average revenue per day over the week \n \"total\" for total revenue of the week \n \"profit\" for the profit of the last week\n \"that is all\" if you are finished\n\n");
 
     String loggedInfo = user_input.nextLine();
 
@@ -322,6 +322,9 @@ public class Weekofsales {
       break;
       case "profit":
       System.out.println("\n$1090");
+      break;
+      case "that is all":
+      System.out.println("\nSucks for you I can't figure out how to break this loop early!");
       break;
     }
     }
