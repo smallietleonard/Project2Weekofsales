@@ -8,18 +8,19 @@ public class Weekofsales {
 
     Scanner user_input = new Scanner(System.in);
     String r = "Revenue: $";
-    int sunday = 428;
-    int monday = 589;
-    int tuesday = 214;
-    int wednesday = 300;
-    int thursday = 735;
-    int friday = 903;
-    int saturday = 1067;
+    int [] dOTW = {0,428,589,214,300,735,903,1067};
+    int sunday = dOTW [1];
+    int monday = dOTW [2];
+    int tuesday = dOTW [3];
+    int wednesday = dOTW [4];
+    int thursday = dOTW [5];
+    int friday = dOTW [6];
+    int saturday = dOTW [7];
 
    System.out.println("\nPlease enter the day in the last week (1-7, where 1 is Sunday, 2 is Monday, etc..) you would like to see the revenue for. \n");
    int firstDate = user_input.nextInt();
    user_input.nextLine();
-   System.out.println("\nYou selected: 6/" + firstDate + "/20\n");
+   System.out.println("\nYou selected: 6/" + (firstDate + 23) + "/20\n");
    
    switch (firstDate) {
      case 1: 
