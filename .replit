@@ -1,0 +1,1 @@
+run = "javac Weekofsales.java && java Weekofsales"
